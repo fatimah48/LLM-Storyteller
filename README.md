@@ -11,6 +11,7 @@ compute_authorship.py    Computes the authorship indicators of Section 4.4
 prompt_bank.json         The adaptive prompt bank (Listing 2)
 sessions/                12 session logs, one Excel file per session
 videos/                  Two recordings of the robot
+internal_ratings.xlsx    Independent ratings provided by the two author-raters
 ```
 
 ## sessions/
@@ -33,16 +34,18 @@ session_3bc8538d.xlsx    session_53605343.xlsx    session_d04afae4.xlsx
 session_3f588710.xlsx    session_58bd6a52.xlsx    session_f7b26ca7.xlsx
 ```
 
-Files are named by session hash. S1 to S12 in the paper are these 12 logs ordered by mean per-turn response latency, ascending, which can be recomputed from the `Latency (s)` column.
+Files are named S1 to S12 in the paper are these 12 logs.
 
-## videos/
+## Demonstration videos
 
-| File | Session |
-|---|---|
-| `id_58bd6a52.mp4` | `sessions/session_58bd6a52.xlsx` |
-| `id_5232fbe7.mp4` | `sessions/session_5232fbe7.xlsx` |
+The two demonstration videos are hosted on OneDrive because they exceed GitHub's file-size limit.
 
-Each recording shows the interaction and the cartoon generated from it, and can be read against its session log.
+| Video | Corresponding session log | Link |
+|---|---|---|
+| `id_5232fbe7.mp4` | `sessions/session_5232fbe7.xlsx` | [View video](https://1drv.ms/v/c/6b947a1f029fc009/IQAokRhmwLmlS5DkVjFjJlXtAVLjM2Sb25rnAvLaJxWQnoM?e=Onx0gb) |
+| `id_58bd6a52.mp4` | `sessions/session_58bd6a52.xlsx` | [View video](https://1drv.ms/v/c/6b947a1f029fc009/IQBhphIl3kmHQLDBUVB8eISYAdu64gWOFddgSQA3lxZYapI?e=FRESQR) |
+
+Each recording shows the author-role-played interaction with the robot and the cartoon generated from the child-side narrative of the corresponding session. No children or external participants appear in the recordings.
 
 ## compute_authorship.py
 
