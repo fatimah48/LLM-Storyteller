@@ -1,0 +1,43 @@
+{
+  "silence": [
+    "That is okay! Take your time. What is one thing you see in your story?",
+    "No rush! Can you tell me one thing about your character?",
+    "It is okay to think slowly. What color is something in your story?"
+  ],
+  "hesitation": [
+    "You are doing great! What is the first thing that comes to your mind?",
+    "There is no wrong answer! What does your character want to do?",
+    "Even a tiny idea is perfect! What does your character see right now?"
+  ],
+  "short_answer": [
+    "Oh I love it! What happens after that?",
+    "Wow! And then what does your character do?",
+    "Great! Where does this happen?",
+    "Cool! What does it look like there?"
+  ],
+  "repetition": [
+    "Yes! And now something surprising happens — what is it?",
+    "I love that part! What if a new friend shows up?",
+    "Amazing! What happens next that nobody expects?"
+  ],
+  "excitement": [
+    "Yes yes yes! Keep going, what happens next?!",
+    "I love your energy! What does your character do now?",
+    "So exciting! What is the most fun part coming up?"
+  ],
+  "exploration": [
+    "Ooh interesting! What does your character find?",
+    "I like it! What does your character want most right now?",
+    "Great thinking! What is the biggest problem your hero has to solve?"
+  ],
+  "confidence": [
+    "You are an amazing storyteller! How does the story end?",
+    "Wow so good! How does your character change at the end?",
+    "Brilliant! What is the message of your story?"
+  ],
+  "long_answer": [
+    "You have such a big imagination! What is the most exciting part?",
+    "I love your story! What does your character decide to do?",
+    "So good! How does the adventure continue?"
+  ]
+}
